@@ -11,9 +11,11 @@
 
 以下条件必须都符合的，有一定几率领取到`4,246.994314` 枚HNS，没有发现截止时间。
 
-- `2019-02-04`以前，github已经绑定好ssh key的
+- `2019-02-04`以前，github已经绑定好ssh key的，请查看 https://github.com/settings/keys
 
 - `2019-02-04`以前，有15个以上 GitHub 好友的
+
+- 领币需要验证身份，风险自己评估
 
 ## 如何自己操作：
 
@@ -36,17 +38,19 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 
 4. 下载hs-tree-data数据
 
-`git clone https://github.com/handshake-org/hs-tree-data  ~/.hs-tree-data`
+在验证中奖的过程中，会下载hs-tree-data，国内网络不好的情况下，会出现 `Error: connect ECONNREFUSED`、Timeout等错误，所以提前下载数据。
 
-在验证中奖的过程中，会下载hs-tree-data，国内网络不好的情况下，会出现timeout，所以提前下载下来。
+执行命令 `git clone https://github.com/handshake-org/hs-tree-data  ~/.hs-tree-data`
 
-来源：https://github.com/handshake-org/hs-airdrop/issues/57
+来源：[issue-57](https://github.com/handshake-org/hs-airdrop/issues/57)
 
 5. 如何验证中奖
 
 进入到项目根目录，执行 `./bin/hs-airdrop ~/.ssh/id_rsa hs1q......`
 
-`~/.ssh/id_rsa` 是你的github ssh的私钥文件，是私钥，不要用ssh公钥，也不要用钱包地址的私钥，`hs1q......` 是之前得到的hns地址
+`~/.ssh/id_rsa` 是你的github ssh的私钥文件，是私钥，不要用ssh公钥，也不要用钱包地址的私钥，`hs1q......` 是之前得到的hns地址。
+
+在这个过程中可能会弹出需要输入`Passphrase`，这是你的ssh key的私钥密码，一般没有特意设置过的都为空，直接回车就好。
 
 有`not find nonce`提示，表示**没中奖**，以下内容可以不用看了 :cry:
 >![](images/noaward.jpg)
