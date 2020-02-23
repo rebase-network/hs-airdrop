@@ -92,6 +92,12 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 去 [https://www.namebase.io/sell](https://www.namebase.io/sell)，请操盘手开始表演。
 > <img src="./images/cashout.png" width="600">
 
+## 文章
+
+https://shidenggui.com/articles/namebase-airdrop
+
+https://airdrop.tonystark.io/detail
+
 ## github互粉
 
 1. https://github.com/xrdavies
