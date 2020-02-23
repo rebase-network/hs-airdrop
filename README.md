@@ -7,6 +7,9 @@
 既然这么有缘分，大家github互粉下吧，也请关注我们的公众号，谢谢大家。
 > <img src="./images/wx.jpg" width="300">
 
+加兰妹子微信，暗号 “handshake”，拉你入群。
+> <img src="./images/user.jpg" width="300">
+
 ## 符合条件
 
 以下条件必须都符合的，有一定几率领取到`4,246.994314` 枚HNS，没有发现截止时间。
