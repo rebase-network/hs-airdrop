@@ -96,6 +96,8 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 
 https://shidenggui.com/articles/namebase-airdrop
 
+https://printempw.github.io/namebase-handshake-airdrop/
+
 https://airdrop.tonystark.io/detail
 
 ## github互粉
