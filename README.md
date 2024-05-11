@@ -1,22 +1,19 @@
 # Handshake 空投
 
-给各位hacker分享一个空投福利，[Handshake](https://handshake.org/) 硬核福利发车了，你有可能领取到`4,246.994314` 枚HNS，目前大概价值 $600，价格一直在变动，各位抓紧哦。
+给各位 hacker 分享一个空投福利，[Handshake](https://handshake.org/) 硬核福利发车了，你有可能领取到`4,246.994314` 枚 HNS，目前大概价值 $600，价格一直在变动，各位抓紧哦。
 
-有想具体了解Handshake的，请看[什么是Handshake](https://www.chainnews.com/articles/452340854508.htm)。
+有想具体了解 Handshake 的，请看[什么是 Handshake](https://www.chainnews.com/articles/452340854508.htm)。
 
-既然这么有缘分，大家github互粉下吧，也请关注我们的公众号，谢谢大家。
+既然这么有缘分，大家 github 互粉下吧，也请关注我们的公众号，谢谢大家。
 > <img src="./images/wx.jpg" width="300">
-
-加兰妹子微信，暗号 “handshake”，拉你入群。
-> <img src="./images/user.jpg" width="300">
 
 ## 符合条件
 
-以下条件必须都符合的，有一定几率领取到`4,246.994314` 枚HNS，没有发现截止时间。
+以下条件必须都符合的，有一定几率领取到`4,246.994314` 枚 HNS，没有发现截止时间。
 
-- `2019-02-04`以前，github已经绑定好ssh key的，请查看 https://github.com/settings/keys
+- `2019-02-04`以前，github 已经绑定好 ssh key 的，请查看 https://github.com/settings/keys
 
-- `2019-02-04`以前，有15个以上 GitHub 好友的
+- `2019-02-04`以前，有 15 个以上 GitHub 好友的
 
 - 领币需要验证身份，风险自己评估
 
@@ -24,14 +21,14 @@
 
 1. 去[namebase](https://www.namebase.io/register) 注册一个账户
 
-2. 得到一个hns钱包地址
+2. 得到一个 hns 钱包地址
 
-去[namebase的dashboard](https://www.namebase.io/dashboard)，得到地址 `hs1q......`。
+去[namebase 的 dashboard](https://www.namebase.io/dashboard)，得到地址 `hs1q......`。
 > <img src="./images/addr.png" width="300">
 
 3. 下载 hs-airdrop
 
-clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
+clone 项目 `git clone https://github.com/rebase-network/hs-airdrop`
 
 进入目录安装依赖，执行 `npm install`。
 
@@ -39,9 +36,9 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 
 > <img src="./images/gyp.png" width="600">
 
-4. 下载hs-tree-data数据
+4. 下载 hs-tree-data 数据
 
-在验证中奖的过程中，会下载hs-tree-data，国内网络不好的情况下，会出现 `Error: connect ECONNREFUSED`、Timeout等错误，所以提前下载数据。
+在验证中奖的过程中，会下载 hs-tree-data，国内网络不好的情况下，会出现 `Error: connect ECONNREFUSED`、Timeout 等错误，所以提前下载数据。
 
 执行命令 `git clone https://github.com/handshake-org/hs-tree-data  ~/.hs-tree-data`
 
@@ -51,9 +48,9 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 
 进入到项目根目录，执行 `./bin/hs-airdrop ~/.ssh/id_rsa hs1q......`
 
-`~/.ssh/id_rsa` 是你的github ssh的私钥文件，是私钥，不要用ssh公钥，也不要用钱包地址的私钥，`hs1q......` 是之前得到的hns地址。
+`~/.ssh/id_rsa` 是你的 github ssh 的私钥文件，是私钥，不要用 ssh 公钥，也不要用钱包地址的私钥，`hs1q......` 是之前得到的 hns 地址。
 
-在这个过程中可能会弹出需要输入`Passphrase`，这是你的ssh key的私钥密码，一般没有特意设置过的都为空，直接回车就好。
+在这个过程中可能会弹出需要输入`Passphrase`，这是你的 ssh key 的私钥密码，一般没有特意设置过的都为空，直接回车就好。
 
 有`not find nonce`提示，表示**没中奖**，以下内容可以不用看了 :cry:
 >![](images/noaward.jpg)
@@ -61,12 +58,12 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 有`Found nonce!`提示，表示**中奖了**，恭喜恭喜！
 >![](images/award.jpg)
 
-6. 中奖后，需要把币发送的刚申请的hns地址
+6. 中奖后，需要把币发送的刚申请的 hns 地址
 
 在上一步验证是否中奖的过程中，如果中奖了会有很多输出内容，并提示 `hsd-rpc sendrawairdrop "base64-string"`
 > <img src="./images/sendrawairdrop.png" width="600">
 
-去 [https://www.namebase.io/airdrop](https://www.namebase.io/airdrop)，鼠标滚到最下面，把生成的 `base64-string` 填入进去，然后点击submit。如下图所示。
+去 [https://www.namebase.io/airdrop](https://www.namebase.io/airdrop)，鼠标滚到最下面，把生成的 `base64-string` 填入进去，然后点击 submit。如下图所示。
 
 > <img src="./images/airdrop.png" width="600">
 
@@ -79,7 +76,7 @@ clone项目 `git clone https://github.com/rebase-network/hs-airdrop`
 
 7. 等待到账
 
-大概需要16～24个小时才能到账，也许会更长 :cry:
+大概需要 16～24 个小时才能到账，也许会更长 :cry:
 >![](images/tx.png)
 
 8. 验证个人身份
@@ -100,7 +97,7 @@ https://printempw.github.io/namebase-handshake-airdrop/
 
 https://airdrop.tonystark.io/detail
 
-## github互粉
+## github 互粉
 
 1. https://github.com/xrdavies
 2. https://github.com/NakaDaoLe
